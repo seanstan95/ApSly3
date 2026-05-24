@@ -104,7 +104,7 @@ class Sly3Context(CommonContext): # type: ignore[misc]
 
   def __init__(self, server_address, password):
     super().__init__(server_address, password)
-    self.version = [0,1,2]
+    self.version = [0,1,3]
     self.game_interface = Sly3Interface(logger)
     self.available_episodes[Sly3Episode.Title_Screen] = True
     self.logger = logger
