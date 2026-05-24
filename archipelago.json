@@ -1,6 +1,4 @@
 {
-  "compatible_version": 7,
-  "version": 7,
   "game": "Sly 3: Honor Among Thieves",
-  "world_version": "0.1.2"
+  "world_version": "0.1.3"
 }
