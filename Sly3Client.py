@@ -302,7 +302,7 @@ class Sly3Context(CommonContext): # type: ignore[misc]
       self.update_gui()
 
   def notification(self, text: str):
-    self.logger.debug("Notification:",text)
+    self.logger.debug(f"Notification: {text}")
     self.notification_queue.append(text)
 
 def update_connection_status(ctx: Sly3Context, status: bool):
